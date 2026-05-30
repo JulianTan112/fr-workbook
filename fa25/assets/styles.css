@@ -1,0 +1,304 @@
+
+:root{--bg:#f8f0e5;--paper:#fffaf2;--ink:#2c211a;--muted:#786653;--line:#e5d2bf;--clay:#ad5e3f;--clay-dark:#86452d;--sage:#6c7f59;--gold:#c49246;--cream:#fff7e8;--rose:#f4d6c6;--shadow:0 20px 60px rgba(86,52,30,.12);--radius:22px}
+body.cool{--bg:#f7f6f2;--paper:#ffffff;--ink:#1f2528;--muted:#667078;--line:#dfe3e0;--clay:#6f7960;--clay-dark:#4d5843;--sage:#58766c;--gold:#a78446;--cream:#f5f6f1;--rose:#e8ece5;--shadow:0 18px 50px rgba(34,45,48,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top left,#fff7ea 0,#f8f0e5 40%,#f2dfca 100%);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.62}body.cool{background:linear-gradient(180deg,#faf9f5,#eceee9)}
+a{color:var(--clay-dark);text-decoration:none}a:hover{text-decoration:underline}.site-header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--paper) 84%,transparent);backdrop-filter:blur(16px);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px clamp(18px,4vw,48px)}.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}.brand:hover{text-decoration:none}.brand-mark{width:40px;height:40px;border-radius:11px;background:var(--clay);color:#fff;display:grid;place-items:center;font:700 18px Fraunces,serif}.brand strong{display:block;font:700 18px Fraunces,serif}.brand small{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;font-size:10px}.site-header nav{display:flex;flex-wrap:wrap;align-items:center;gap:16px;font-size:14px}.site-header nav a{color:var(--muted);font-weight:700}.site-header nav a.active{color:var(--clay-dark)}.pill{border:1px solid var(--line);background:var(--cream);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px;font-weight:800}.pill-sage{background:#edf2df;color:#52623d}.search-strip{position:sticky;top:65px;z-index:25;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);display:flex;gap:10px;padding:12px clamp(18px,4vw,48px)}.search-strip input{flex:1;min-width:200px;border:1px solid var(--line);background:var(--paper);border-radius:14px;padding:12px 14px;color:var(--ink)}button,.button{border:1px solid var(--line);background:var(--paper);border-radius:13px;padding:10px 13px;color:var(--ink);font-weight:800;cursor:pointer}button:hover,.button:hover{border-color:var(--clay);text-decoration:none}.container{max-width:1180px;margin:0 auto;padding:40px 22px 80px}.narrow{max-width:980px}.hero{display:grid;grid-template-columns:1.35fr .9fr;gap:28px;align-items:start;margin:24px 0 42px}.hero h1,.page-title h1{font:700 clamp(42px,6vw,76px)/1.02 Fraunces,serif;letter-spacing:-.04em;margin:8px 0 18px}.page-title h1{font-size:clamp(34px,5vw,58px)}.lead{font-size:18px;color:var(--muted);max-width:780px}.notebook-card,.card,.panel,.workspace-card,.quiz-item,.flash-face{background:color-mix(in srgb,var(--paper) 94%,white);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.card,.workspace-card{padding:28px;margin:24px 0}.panel{padding:20px}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.lesson-grid,.practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.lesson-card,.practice-link{display:flex;gap:18px;padding:20px;color:var(--ink);transition:.15s transform,.15s border-color}.practice-link{display:block}.lesson-card:hover,.practice-link:hover{transform:translateY(-2px);border-color:var(--clay);text-decoration:none}.lesson-icon{font-size:34px;line-height:1}.lesson-copy h3,.practice-link h3,.panel h3{font:600 21px/1.2 Fraunces,serif;margin:6px 0}.lesson-copy p,.panel p,.practice-link p{color:var(--muted);margin:8px 0 0}.mini-meta,.part-meta{font:800 12px/1.3 JetBrains Mono,monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.part-meta{display:inline-block;padding:6px 10px;background:var(--cream);border:1px solid var(--line);border-radius:999px;margin-bottom:8px}.open-link,.small-link{font-weight:800;color:var(--clay-dark)}.module-title,.workspace-head,.answer-head{display:flex;align-items:start;justify-content:space-between;gap:20px}.module-title{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}.module-title h1{font:700 clamp(36px,5vw,58px)/1.04 Fraunces,serif;margin:8px 0}.complete{display:flex;gap:8px;align-items:center;font-weight:800;background:#fff3dc;border:1px solid var(--line);padding:10px 12px;border-radius:14px;white-space:nowrap}.complete input{width:18px;height:18px}.toc{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.toc a{padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-weight:800}.section-block{margin:28px 0}.section-block h2,.card h2,.workspace-card h2{font:600 30px/1.15 Fraunces,serif;margin:0 0 10px}.section-block h3,.workspace-card h3{font:600 21px/1.2 Fraunces,serif;margin:14px 0 8px}.bullet-list{padding-left:1.2rem;margin:10px 0}.bullet-list li{margin:8px 0}.compact{padding-left:1.15rem;margin:8px 0}.compact li{margin:4px 0}.table-wrap{overflow-x:auto;margin:16px 0;border-radius:18px;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;background:var(--paper)}caption{text-align:left;font-weight:800;padding:14px 16px;color:var(--clay-dark)}th,td{border-top:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}th{background:#f5e3cf;color:#4c3323}.num{text-align:right;font-family:JetBrains Mono,monospace}.question-box,.required-box,.attempt-box,.check-panel{background:#fff6e7;border:1px solid var(--line);border-radius:18px;padding:16px;margin:16px 0}.required-box{background:#fffaf2}.attempt-box textarea{width:100%;min-height:190px;margin-top:8px;border:1px solid var(--line);background:var(--paper);border-radius:15px;padding:14px;font:500 13.5px/1.6 JetBrains Mono,monospace;color:var(--ink);resize:vertical}.draft-note{font-size:12px;color:var(--muted);margin-top:6px}.answer-toggle{margin-top:4px;background:var(--clay);color:#fff;border-color:var(--clay)}.ghost{background:transparent}.answer-panel{margin-top:18px;background:linear-gradient(180deg,#fff7e9,#fff1dc);border:1px solid var(--line);border-radius:20px;padding:20px}.answer-panel h3{margin:2px 0 0}.answer-steps{padding-left:1.25rem}.answer-steps li{margin:10px 0;padding-left:4px}.check-panel{background:#f4efd9;border-left:5px solid var(--gold)}.quiz-item{padding:20px;margin:16px 0}.quiz-item button{display:block;width:100%;text-align:left;margin:8px 0}.feedback{display:none;margin-top:12px;padding:12px;border-radius:14px;border:1px solid var(--line);background:#fff5de}.feedback.show{display:block}.correct{border-color:#6d8b62!important;background:#eef6e8!important}.wrong{border-color:#c46a4d!important;background:#fff0e9!important}.flash-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.flash{perspective:1000px;min-height:190px}.flash-inner{position:relative;transform-style:preserve-3d;transition:transform .45s;min-height:190px}.flash.flipped .flash-inner{transform:rotateY(180deg)}.flash-face{position:absolute;inset:0;backface-visibility:hidden;padding:20px;display:flex;flex-direction:column;justify-content:center}.flash-back{transform:rotateY(180deg);background:#fff0d5}.drag-area{display:grid;grid-template-columns:280px 1fr;gap:20px}.drag-bank,.drop-zone{border:1px dashed var(--line);border-radius:18px;background:#fff8ec;padding:14px;min-height:140px}.drop-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.drag-item{padding:10px 12px;background:var(--paper);border:1px solid var(--line);border-radius:12px;margin:8px 0;cursor:grab}.drop-zone.over{border-color:var(--clay);background:#fff1df}.scorebox{font-weight:800;margin-top:12px}.progress-list{display:grid;gap:8px;margin-top:12px}.progress-row{display:flex;justify-content:space-between;gap:12px;align-items:center;border:1px solid var(--line);background:var(--paper);border-radius:14px;padding:10px 12px;font-weight:700}.progress-row input{width:18px;height:18px}.note{border-left:5px solid var(--gold);background:#fff4dc;padding:14px 16px;border-radius:12px;margin:16px 0;color:#5b4029}.hidden-by-search{display:none!important}.footer{border-top:1px solid var(--line);padding:24px clamp(18px,4vw,48px);color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}.print-only{display:none}
+@media(max-width:900px){.hero,.grid.two,.grid.three,.lesson-grid,.practice-grid,.flash-grid,.drag-area{grid-template-columns:1fr}.site-header{align-items:flex-start;flex-direction:column}.search-strip{top:137px;flex-wrap:wrap}.module-title,.workspace-head,.answer-head{flex-direction:column}.drop-grid{grid-template-columns:1fr}}
+@media print{.site-header,.search-strip,.footer,button,.complete,.toc,.small-link{display:none!important}body{background:white;color:black}.container{max-width:none;padding:0}.card,.panel,.notebook-card,.workspace-card{box-shadow:none;border:1px solid #bbb;break-inside:avoid}.answer-panel{display:block!important}.print-only{display:block}a{color:black;text-decoration:none}}
+
+
+/* v9: Accounting answer format — tables, ledgers, reconciliations, and journal layouts */
+.answer-panel{background:linear-gradient(180deg,#fff8ec,#fff2df)}
+.answer-panel .answer-steps{display:none}
+.solution-block{margin:18px 0;padding:16px;border:1px solid var(--line);border-radius:18px;background:rgba(255,250,242,.72)}
+.solution-block h4{font:700 20px/1.2 Fraunces,serif;margin:0 0 10px;color:var(--clay-dark)}
+.solution-caption{font:800 12px/1.35 JetBrains Mono,monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.accounting-table,.journal-table,.recon-table,.ledger-table,.statement-table,.stock-ledger,.effect-table{width:100%;border-collapse:collapse;background:var(--paper);font-size:14px}
+.accounting-table th,.journal-table th,.recon-table th,.ledger-table th,.statement-table th,.stock-ledger th,.effect-table th{background:#f1dcc5;color:#4b3121;border:1px solid var(--line);padding:10px 12px}
+.accounting-table td,.journal-table td,.recon-table td,.ledger-table td,.statement-table td,.stock-ledger td,.effect-table td{border:1px solid var(--line);padding:9px 12px;vertical-align:top}
+.journal-table td:nth-child(3),.journal-table td:nth-child(4),.recon-table td:nth-child(2),.recon-table td:nth-child(4),.ledger-table td:nth-child(2),.ledger-table td:nth-child(4),.statement-table td:nth-child(2),.stock-ledger td.num,.effect-table td.num{text-align:right;font-family:JetBrains Mono,monospace;white-space:nowrap}
+.journal-table .credit-account{padding-left:26px}
+.total-row td{font-weight:800;border-top:2px solid var(--clay-dark);background:#fff0d7}
+.subtotal-row td{font-weight:700;background:#fff6e8}
+.nil{color:var(--muted);font-style:italic}
+.ledger-wrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:14px 0}
+.t-account{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
+.t-account h4{margin:0;padding:10px 12px;text-align:center;background:#f1dcc5;border-bottom:2px solid var(--ink);font:700 17px Fraunces,serif;color:var(--ink)}
+.t-ledger{width:100%;border-collapse:collapse;font-size:13.5px}
+.t-ledger th,.t-ledger td{border:1px solid var(--line);padding:8px 10px}.t-ledger th{text-align:center;background:#fff1dc}.t-ledger td:nth-child(2),.t-ledger td:nth-child(4){text-align:right;font-family:JetBrains Mono,monospace}.t-ledger .bal td{font-weight:800;background:#fff7e9}
+.explain-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}.explain-card{border-left:5px solid var(--gold);background:#fff7e8;border-radius:14px;padding:12px 14px}.explain-card strong{color:var(--clay-dark)}
+.format-note{font-size:13px;color:var(--muted);margin-top:8px}.mark-note{font-weight:800;color:var(--clay-dark)}
+@media(max-width:900px){.ledger-wrap{grid-template-columns:1fr}.journal-table,.recon-table,.ledger-table,.statement-table,.stock-ledger,.effect-table{font-size:13px}}
+@media print{.solution-block,.t-account{break-inside:avoid}.answer-panel{background:white!important}.answer-panel .answer-steps{display:none!important}}
+
+
+/* v11: full lecture coverage + accounting-workings practice format */
+.slide-complete{margin-top:28px}
+.slide-note{border:1px solid var(--line);border-radius:18px;background:var(--paper);margin:10px 0;overflow:hidden}
+.slide-note summary{cursor:pointer;padding:12px 16px;font-weight:800;color:var(--clay-dark);background:#fff3df}
+.slide-note pre{white-space:pre-wrap;margin:0;padding:16px;font:500 13px/1.55 JetBrains Mono,monospace;color:#3c2b20;background:#fffaf2;max-height:520px;overflow:auto}
+.flow-map{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:18px 0}.flow-step{border:1px solid var(--line);border-radius:16px;background:#fff6e7;padding:14px;text-align:center;font-weight:800;position:relative}.flow-step small{display:block;margin-top:7px;color:var(--muted);font-weight:600}.flow-step:not(:last-child)::after{content:'→';position:absolute;right:-14px;top:38%;font-size:20px;color:var(--clay-dark)}
+.mnemonic{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}.mnemonic-card{border:1px solid var(--line);border-radius:18px;background:#fff7e8;padding:18px}.mnemonic-card h3{font:700 24px Fraunces,serif;margin:0 0 8px}.big-code{font:800 34px/1.1 JetBrains Mono,monospace;letter-spacing:.08em;color:var(--clay-dark)}
+.ledger-explain{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}.ledger-explain .explain-card{height:100%}
+.coverage-card{background:#fff7e5;border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:18px;padding:16px;margin:18px 0}.coverage-card strong{color:var(--clay-dark)}
+.calculation-table td:nth-child(2),.calculation-table td:nth-child(3),.calculation-table td:nth-child(4){font-family:JetBrains Mono,monospace;text-align:right;white-space:nowrap}
+.accounting-table .dr{font-family:JetBrains Mono,monospace;text-align:right}.accounting-table .cr{font-family:JetBrains Mono,monospace;text-align:right}.tag{display:inline-block;border:1px solid var(--line);background:#fff8ea;border-radius:999px;padding:3px 8px;font:800 11px JetBrains Mono,monospace;color:var(--muted)}
+@media(max-width:1050px){.flow-map{grid-template-columns:1fr}.flow-step:not(:last-child)::after{display:none}.mnemonic,.ledger-explain{grid-template-columns:1fr}}
+
+/* v14: full practice data + accounting-format answer guides */
+.source-table td:first-child{font-family:JetBrains Mono,monospace;white-space:nowrap;font-weight:800;color:var(--clay-dark)}
+.source-table td:nth-child(n+3), .source-table th:nth-child(n+3){text-align:right;font-family:JetBrains Mono,monospace}
+.answer-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}.answer-flow div{border:1px solid var(--line);border-radius:14px;background:#fff8ea;padding:12px;text-align:center;font-weight:800}.answer-flow small{display:block;color:var(--muted);font-weight:600;margin-top:6px}
+.ledger-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px;margin:14px 0}.t-account{border:1px solid var(--line);border-radius:16px;background:#fffdf8;overflow:hidden}.t-account h4{margin:0;padding:10px 12px;background:#fff0d0;border-bottom:1px solid var(--line)}.t-ledger{width:100%;border-collapse:collapse}.t-ledger th,.t-ledger td{padding:7px 9px;border-bottom:1px solid #eadbc2;font-size:13px}.t-ledger th{background:#fff7e5}.t-ledger td:nth-child(2),.t-ledger td:nth-child(4){text-align:right;font-family:JetBrains Mono,monospace;white-space:nowrap}.t-ledger .bal td{font-weight:800;border-top:2px solid var(--line);background:#fffaf0}.t-ledger .total-row td{font-weight:900;border-top:2px double var(--line)}
+.journal-table td:nth-child(4),.journal-table td:nth-child(5),.accounting-table td:nth-child(n+2){font-family:JetBrains Mono,monospace}.journal-table td:nth-child(4),.journal-table td:nth-child(5),.accounting-table .num{text-align:right;white-space:nowrap}.credit-account{padding-left:2.2rem!important}.nil{color:var(--muted);font-style:italic}.subtotal-row td{font-weight:800;background:#fff8ea}.total-row td{font-weight:900;background:#fff0d0;border-top:2px solid var(--line)}.case-note{border-left:5px solid var(--gold);background:#fff8ea;padding:12px 14px;border-radius:12px;margin:12px 0}.case-note strong{color:var(--clay-dark)}
+.explain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:12px}.explain-card{background:#fff8ea;border:1px solid var(--line);border-radius:14px;padding:12px}.explain-card strong{color:var(--clay-dark)}
+@media(max-width:900px){.answer-flow{grid-template-columns:1fr}.source-table td:first-child{white-space:normal}}
+
+
+/* v15 Cash & Receivables booster */
+.booster-banner{border:2px solid var(--clay);background:linear-gradient(135deg,#fff7e8,#ffe4c2);border-radius:24px;padding:22px;margin:22px 0;box-shadow:var(--shadow)}
+.booster-banner h2{font:700 30px/1.08 Fraunces,serif;margin:0 0 8px;color:var(--clay-dark)}
+.decision-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:16px 0}.decision-card{border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:16px}.decision-card h4{font:700 18px Fraunces,serif;margin:0 0 8px;color:var(--clay-dark)}
+.timeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:16px 0}.timeline .stage{border:1px solid var(--line);border-radius:18px;background:#fff8ec;padding:14px}.stage strong{display:block;font:800 13px JetBrains Mono,monospace;color:var(--clay-dark);text-transform:uppercase;letter-spacing:.08em}.method-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.method-card{border:1px solid var(--line);border-radius:20px;padding:18px;background:var(--paper)}.method-card h3{margin-top:0}.impact-negative{color:#94412b;font-weight:800}.impact-positive{color:#4f6b3f;font-weight:800}.callout-weak{border-left:6px solid #bb6a47;background:#fff0e5;padding:14px 16px;border-radius:12px;margin:14px 0}.callout-strong{border-left:6px solid var(--sage);background:#eef5e4;padding:14px 16px;border-radius:12px;margin:14px 0}.formula-line{font-family:JetBrains Mono,monospace;background:#fff7e8;border:1px solid var(--line);border-radius:12px;padding:10px;margin:8px 0;overflow-x:auto}.kbd{font-family:JetBrains Mono,monospace;background:#f3dfc8;border:1px solid var(--line);padding:2px 6px;border-radius:6px}
+@media(max-width:900px){.decision-grid,.timeline,.method-compare{grid-template-columns:1fr}}
+
+
+/* v18: navigation polish, related lesson links, and back-to-top controls */
+.back-top-floating{position:fixed;right:18px;bottom:18px;z-index:60;border:1px solid var(--line);background:var(--clay);color:#fff;border-radius:999px;padding:10px 14px;font-weight:900;box-shadow:var(--shadow);font-size:13px}.back-top-floating:hover{background:var(--clay-dark);text-decoration:none;color:#fff}.section-actions{margin-top:18px;padding-top:10px;border-top:1px dashed var(--line);text-align:right}.section-actions a{font:800 12px JetBrains Mono,monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--clay-dark)}.related-note{display:inline-block;margin:8px 0 12px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:#fff8ea;font-weight:800}.related-links{background:linear-gradient(180deg,#fff8ec,#fff3df);border:1px solid var(--line);border-radius:20px;padding:18px;margin:20px 0}.related-links h2{font:700 24px/1.15 Fraunces,serif;margin:0 0 8px}.related-links .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:10px}.related-links a{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px;color:var(--ink);font-weight:800}.related-links a:hover{border-color:var(--clay);text-decoration:none;transform:translateY(-1px)}.related-links small{display:block;color:var(--muted);font-weight:600;margin-top:4px}.lesson-jump{font:800 12px JetBrains Mono,monospace;text-transform:uppercase;letter-spacing:.05em;color:var(--clay-dark)}@media print{.back-top-floating,.section-actions,.related-note,.related-links{display:none!important}}
+
+
+/* v21: long-table usability and accountancy terminology polish */
+.table-wrap.pattern-table table thead th,
+.table-wrap.sticky-head table thead th{
+  position: sticky;
+  top: 122px;
+  z-index: 6;
+  box-shadow: 0 2px 0 var(--line);
+}
+.long-table-note{font-size:13px;color:var(--muted);background:#fff8ea;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0 0;}
+.term-highlight{display:inline-block;border:1px solid var(--line);border-radius:999px;background:#fff4dc;padding:3px 8px;font-weight:900;color:var(--clay-dark);}
+.concept-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:14px 0}.concept-card{border:1px solid var(--line);border-radius:16px;background:#fff8ec;padding:14px}.concept-card h4{font:700 18px Fraunces,serif;margin:0 0 8px;color:var(--clay-dark)}
+@media print{.table-wrap.pattern-table table thead th,.table-wrap.sticky-head table thead th{position:static;box-shadow:none}.long-table-note{display:none}}
+
+
+/* v22: anti-truncation, source-term audit, and readable long summaries */
+.table-wrap{max-width:100%; overflow-x:auto; overflow-y:visible; -webkit-overflow-scrolling:touch;}
+.table-wrap table{min-width:720px; table-layout:auto;}
+.table-wrap.no-truncate td,.table-wrap.no-truncate th{overflow-wrap:anywhere; word-break:normal;}
+.table-wrap.no-truncate td.num,.table-wrap.no-truncate .num{white-space:nowrap;}
+.table-wrap.tall-table{max-height:72vh; overflow:auto; overscroll-behavior:contain;}
+.table-wrap.tall-table table thead th{position:sticky!important; top:0!important; z-index:8;}
+.split-table-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px;margin:16px 0;}
+.split-table-card{border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:14px;overflow:hidden;}
+.split-table-card h3{font:700 20px Fraunces,serif;margin:0 0 8px;color:var(--clay-dark);}
+.split-table-card .table-wrap{margin:8px 0 0;}
+.term-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0;}
+.term-map-card{border:1px solid var(--line);border-radius:18px;background:#fff8ec;padding:16px;}
+.term-map-card h3{font:700 20px Fraunces,serif;margin:0 0 8px;color:var(--clay-dark);}
+.term-map-card p{margin:8px 0;color:var(--muted);}
+.term-chip{display:inline-block;margin:3px 5px 3px 0;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#fff4dc;font:800 11px JetBrains Mono,monospace;color:var(--clay-dark);}
+.statement-bridge{border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:18px;background:#fff8ec;padding:16px;margin:16px 0;}
+.statement-bridge strong{color:var(--clay-dark);}
+@media(max-width:700px){.table-wrap table{min-width:650px}.split-table-grid{grid-template-columns:1fr}.flash{min-height:220px}.flash-inner{min-height:220px}}
+@media print{.table-wrap.tall-table{max-height:none;overflow:visible}.table-wrap table{min-width:0}.split-table-grid{display:block}.split-table-card{break-inside:avoid;margin:14px 0}.term-map{display:block}.term-map-card{break-inside:avoid;margin:12px 0}}
+
+
+/* v23: replace dense term tables with readable card grids; improve sticky headers */
+.table-wrap.sticky-head{max-height:70vh; overflow:auto; overscroll-behavior:contain;}
+.table-wrap.sticky-head table thead th{position:sticky!important; top:0!important; z-index:9;}
+.term-pattern-grid,.profit-term-grid,.formula-card-grid,.placement-card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;
+  margin:16px 0;
+}
+.term-pattern-card,.profit-term-card,.formula-card,.placement-card{
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:linear-gradient(180deg,#fffdf8,#fff6e8);
+  padding:16px;
+  box-shadow:0 8px 20px rgba(82,55,35,.05);
+  overflow-wrap:anywhere;
+}
+.term-pattern-card h3,.profit-term-card h3,.formula-card h3,.placement-card h3{
+  font:700 19px/1.2 Fraunces,serif;
+  margin:0 0 10px;
+  color:var(--clay-dark);
+}
+.term-pattern-card dl,.profit-term-card dl,.placement-card dl{
+  display:grid;
+  grid-template-columns:minmax(88px,0.42fr) minmax(0,1fr);
+  gap:8px 12px;
+  margin:0;
+}
+.term-pattern-card dt,.profit-term-card dt,.placement-card dt{
+  font:800 11px/1.25 JetBrains Mono,monospace;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+.term-pattern-card dd,.profit-term-card dd,.placement-card dd{margin:0;color:var(--ink);}
+.formula-card .formula-line{margin:8px 0 0;white-space:normal;}
+.sequence-ribbon{
+  border:1px solid var(--line);
+  border-left:6px solid var(--gold);
+  border-radius:18px;
+  background:#fff8ea;
+  padding:14px 16px;
+  margin:16px 0;
+  line-height:1.65;
+}
+.sequence-ribbon .arrow{font-weight:900;color:var(--clay-dark);padding:0 4px;}
+@media(max-width:640px){
+  .term-pattern-card dl,.profit-term-card dl,.placement-card dl{grid-template-columns:1fr;}
+  .term-pattern-card dt,.profit-term-card dt,.placement-card dt{margin-top:6px;}
+}
+@media print{
+  .term-pattern-grid,.profit-term-grid,.formula-card-grid,.placement-card-grid{display:block;}
+  .term-pattern-card,.profit-term-card,.formula-card,.placement-card{break-inside:avoid;margin:12px 0;}
+}
+
+
+/* v24: horizontal scroll controls for wide accounting tables */
+.table-wrap{position:relative;}
+.table-wrap.force-scroll,
+.table-wrap.no-truncate,
+.table-wrap.sticky-head{
+  overflow-x:auto;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+}
+.table-wrap.force-scroll table,
+.table-wrap.no-truncate table,
+.table-wrap.sticky-head table{
+  width:max-content;
+  min-width:max(980px,100%);
+  table-layout:auto;
+}
+.table-wrap.force-scroll th,
+.table-wrap.force-scroll td,
+.table-wrap.no-truncate th,
+.table-wrap.no-truncate td{
+  white-space:nowrap;
+  overflow-wrap:normal;
+  word-break:normal;
+}
+.table-scroll-controls{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin:12px 0 6px;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:#fff8ea;
+  color:var(--muted);
+  font-size:13px;
+}
+.table-scroll-controls .scroll-hint{
+  font-weight:800;
+}
+.table-scroll-controls .scroll-buttons{
+  display:flex;
+  gap:8px;
+  flex:0 0 auto;
+}
+.table-scroll-controls button{
+  padding:7px 10px;
+  border-radius:999px;
+  font:900 12px JetBrains Mono,monospace;
+  background:var(--paper);
+}
+.table-scroll-controls button:disabled{
+  opacity:.38;
+  cursor:not-allowed;
+}
+.table-wrap.is-scrollable{
+  box-shadow:inset -18px 0 18px -18px rgba(86,52,30,.22), inset 18px 0 18px -18px rgba(86,52,30,.15);
+}
+@media(max-width:700px){
+  .table-wrap.force-scroll table,
+  .table-wrap.no-truncate table,
+  .table-wrap.sticky-head table{min-width:920px;}
+  .table-scroll-controls{align-items:flex-start;flex-direction:column;}
+}
+@media print{
+  .table-scroll-controls{display:none!important;}
+  .table-wrap.force-scroll table,
+  .table-wrap.no-truncate table,
+  .table-wrap.sticky-head table{width:100%;min-width:0;}
+  .table-wrap.force-scroll th,.table-wrap.force-scroll td,
+  .table-wrap.no-truncate th,.table-wrap.no-truncate td{white-space:normal;}
+}
+
+
+/* v25: fix table-header clipping caused by legacy sticky offset on small pattern tables */
+/* Small lesson pattern tables should scroll horizontally but their header should remain normal.
+   The old global .pattern-table sticky rule used top:122px, which clipped/misplaced headers
+   inside shorter table frames. Only true long/tall tables keep sticky headers. */
+.table-wrap.pattern-table:not(.tall-table):not(.sticky-head) table thead th{
+  position:static !important;
+  top:auto !important;
+  z-index:auto !important;
+  box-shadow:none !important;
+}
+
+/* Sticky headers are only for actual scroll containers and must stick to the top of the table frame,
+   not to the page header/search bar. */
+.table-wrap.tall-table table thead th,
+.table-wrap.sticky-head table thead th{
+  position:sticky !important;
+  top:0 !important;
+  z-index:12 !important;
+  background:#f5e3cf !important;
+  box-shadow:0 2px 0 var(--line);
+}
+
+/* Border-collapse + sticky headers can visually crop header text in Chrome/Edge. Use separate borders
+   inside scrollable tables so the header row has its full height and background. */
+.table-wrap.force-scroll table,
+.table-wrap.no-truncate table,
+.table-wrap.sticky-head table,
+.table-wrap.tall-table table{
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+}
+
+.table-wrap.force-scroll th,
+.table-wrap.no-truncate th,
+.table-wrap.sticky-head th,
+.table-wrap.tall-table th{
+  line-height:1.35 !important;
+  padding:15px 18px !important;
+  vertical-align:middle !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  background-clip:padding-box !important;
+}
+
+.table-wrap.force-scroll td,
+.table-wrap.no-truncate td,
+.table-wrap.sticky-head td,
+.table-wrap.tall-table td{
+  padding:13px 18px !important;
+  vertical-align:top !important;
+}
+
+/* Give key debit/credit pattern columns enough breathing room while still allowing horizontal scroll. */
+.table-wrap.pattern-table table th:nth-child(1),
+.table-wrap.pattern-table table td:nth-child(1){min-width:220px;}
+.table-wrap.pattern-table table th:nth-child(2),
+.table-wrap.pattern-table table td:nth-child(2),
+.table-wrap.pattern-table table th:nth-child(3),
+.table-wrap.pattern-table table td:nth-child(3){min-width:180px;}
+.table-wrap.pattern-table table th:last-child,
+.table-wrap.pattern-table table td:last-child{min-width:300px;}
+
+@media(max-width:700px){
+  .table-wrap.pattern-table table th:nth-child(1),
+  .table-wrap.pattern-table table td:nth-child(1){min-width:240px;}
+  .table-wrap.pattern-table table th:last-child,
+  .table-wrap.pattern-table table td:last-child{min-width:340px;}
+}
