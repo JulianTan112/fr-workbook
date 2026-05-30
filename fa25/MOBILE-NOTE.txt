@@ -1,0 +1,1 @@
+Mobile-friendly patch for v25. Upload this fa25 folder to GitHub to replace the existing fa25 folder, then use https://juliantan112.github.io/fr-workbook/fa25/ on WhatsApp. Content remains v25; changes are CSS/layout only.
