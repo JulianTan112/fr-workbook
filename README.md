@@ -19,4 +19,4 @@ This workbook includes structured lessons, full accounting-format practice worki
 Open:
 
 ```text
-fa25/index.html
+(https://juliantan112.github.io/fr-workbook/fa25/)
