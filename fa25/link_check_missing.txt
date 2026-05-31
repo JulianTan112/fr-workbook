@@ -1,1 +1,1 @@
-No missing internal HTML links found.
+No missing html links
