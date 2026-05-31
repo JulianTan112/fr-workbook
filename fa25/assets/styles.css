@@ -302,3 +302,27 @@ a{color:var(--clay-dark);text-decoration:none}a:hover{text-decoration:underline}
   .table-wrap.pattern-table table th:last-child,
   .table-wrap.pattern-table table td:last-child{min-width:340px;}
 }
+
+
+/* v25 Additional Insights add-on: Financial Management lens without disturbing v25 table polish */
+.additional-insights-callout{
+  border:1px solid var(--line);
+  border-left:7px solid var(--sage);
+  border-radius:20px;
+  background:linear-gradient(180deg,#f8f5e6,#fff8ec);
+  padding:18px 20px;
+  margin:18px 0;
+}
+.additional-insights-callout h2{font:700 24px/1.15 Fraunces,serif;margin:0 0 8px;color:var(--clay-dark)}
+.additional-insights-callout p{color:var(--muted);margin:0 0 12px;max-width:850px}
+.insight-grid{display:grid;gap:14px;margin:16px 0}.insight-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.insight-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.insight-card{border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,#fffdf8,#fff6e8);padding:16px;box-shadow:0 8px 20px rgba(82,55,35,.05)}
+.insight-card h3{font:700 20px/1.2 Fraunces,serif;margin:0 0 8px;color:var(--clay-dark)}
+.insight-card p{margin:8px 0;color:var(--muted)}
+.insight-map-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:16px 0}
+.insight-map-card{display:block;border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:16px;color:var(--ink)}
+.insight-map-card:hover{border-color:var(--clay);text-decoration:none;transform:translateY(-1px)}
+.insight-map-card h3{font:700 19px/1.2 Fraunces,serif;margin:8px 0;color:var(--clay-dark)}
+.insight-map-card p{color:var(--muted);margin:0}
+@media(max-width:900px){.insight-grid.two,.insight-grid.three{grid-template-columns:1fr}}
+@media print{.additional-insights-callout{display:none!important}.insight-map-card,.insight-card{break-inside:avoid}}
