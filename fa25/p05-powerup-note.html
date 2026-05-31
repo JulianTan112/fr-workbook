@@ -202,13 +202,44 @@
 </div>
 <div class="explain-grid"><div class="explain-card"><strong>Explanation for these ledgers:</strong> the redeemable preference share issue is a missing transaction, so Cash and the related liability/equity account are both updated. Interest and tax are period-end accruals. Tax payable is first cleared for the settled prior-year amount, then credited again for the current-year estimate.</div></div>
 </div>
-<div class="check-panel"><strong>Answer-format check:</strong> this page now marks using journal entries, calculation bridges, and ledgers. The final journal total is $231,490 on both sides. The inventory shortage working uses $184,150 less $168,550 = $15,600, not a prose shortcut.</div>
+<div class="check-panel"><strong>Answer-format check:</strong> this page now marks using journal entries, calculation bridges, and ledgers. The final journal total is $224,052.50 on both sides after the redeemable preference-share finance cost is prorated. The inventory shortage working uses $184,150 less $168,550 = $15,600, not a prose shortcut.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Power Up integrated adjustment answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>Power Up is an integrated adjustment problem. The trial balance is only the starting point; the additional information changes sales, COGS, inventory, receivables, rent, finance cost, tax and liabilities before the final figures can be trusted.</p><p>The consignment item reverses a sale and COGS because the goods remain with the consignor until sold by the consignee to a third party. After that, the physical count gives shortage, and the outdated T-shirts require NRV comparison. These are separate inventory adjustments, not one combined guess.</p><p>Redeemable preference shares create a financial obligation in this question. The issue entry records cash and the liability/financial instrument. The return is finance cost over the period outstanding, so the adjustment is prorated from the issue date to year-end instead of recording a full-year ordinary equity dividend.</p><p>Due-diligence check: read all eight additional-information points before journalising; each point affects a different statement line.</p></div>
+<div class="practice-rationale"><h4>Explanation for Power Up integrated adjustment answer</h4>
+<p><span class="bridge-heading">Inventory / consignment bridge</span></p>
+<pre class="explain-calc">Reverse fake sale:
+Dr Sales 2,800 / Cr A/R 2,800
+
+Restore fake COGS removal:
+Dr Inventory 1,650 / Cr COGS 1,650
+
+Inventory per books after restoration:
+$182,500 + $1,650 = $184,150
+
+Physical inventory owned:
+$166,900 + $1,650 = $168,550
+
+Shortage:
+$184,150 − $168,550 = $15,600</pre>
+<p><span class="bridge-heading">Other adjustment bridge</span></p>
+<pre class="explain-calc">NRV = $2,300 − $450 = $1,850
+Write-down = $5,400 − $1,850 = $3,550
+
+Prepaid rent required = $8,500
+Rent expense = $110,500 − $8,500 = $102,000
+
+Preference proceeds = 50,000 × $1.20 = $60,000
+Finance cost = 50,000 × $0.21 × 3.5 / 12 = $3,062.50
+
+Allowance required = 5% × ($70,000 − $2,800) = $3,360
+Allowance reduction = $6,300 − $3,360 = $2,940
+
+Bank interest = $180,000 × 5% × 3 / 12 = $2,250
+Tax: clear $11,700 prior year; accrue $18,500 current year.</pre>
+<p>This integrated case must be solved in order: fix ownership/cut-off errors first, then calculate inventory shortage, then apply NRV, accruals, allowance, interest and tax.</p></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

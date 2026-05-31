@@ -113,11 +113,30 @@
 </div>
 <div class="check-panel"><strong>Self-check before moving on:</strong> make sure every debit has a matching credit, statement effects are separated from cash effects, and timing items are not accidentally journalised.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Sandoz reconciliation and control answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>The reconciliation proves one adjusted cash balance by separating bank timing items, book omissions/errors and bank errors. Only book-side items are journalised because those are missing or wrong in the business records.</p><p>The internal-control answer should link each weakness to a cash risk: weak authorisation, missing documentation, poor segregation of duties or lack of independent review can lead to errors, fraud or untraceable cash movements.</p><p>Due-diligence check: do not journalise outstanding cheques or deposits in transit; journalise only book-side adjustments.</p></div>
+<div class="practice-rationale"><h4>Explanation for Sandoz reconciliation, journals and petty cash control</h4>
+<p><span class="bridge-heading">Part (a) bank reconciliation bridge</span></p>
+<pre class="explain-calc">Bank side:
+$10,109 + $4,339 − $1,012 − $5,300 = $8,136
+
+Cash book side:
+$9,641 + $850 − $2,220 − $35 − $100 = $8,136</pre>
+<p>The two sides reconcile to the same adjusted cash balance. Cheque 440 and the $5,529 deposit are not adjusted again because they already appear correctly in the records being reconciled.</p>
+<p><span class="bridge-heading">Part (b) journal-entry bridge</span></p>
+<pre class="explain-calc">EFT receipt:             Dr Cash 850 / Cr A/R 850
+Dishonoured cheque:      Dr A/R 2,220 / Cr Cash 2,220
+Bank charges:            Dr Bank charges 35 / Cr Cash 35
+Ole receipt error:       Dr A/R 100 / Cr Cash 100
+
+Cash ledger check:
++$850 − $2,220 − $35 − $100 = −$1,505
+$9,641 − $1,505 = $8,136</pre>
+<p>Journalise only the book-side items because these are missing from or wrong in the business records. Bank-side timing items explain the bank statement difference but do not need business journal entries.</p>
+<p><span class="bridge-heading">Part (c) internal-control bridge</span></p>
+<p>Explain each control point as <strong>weakness → risk → control</strong>. Returning original receipts and keeping only a petty-cash-book entry creates weak evidence and duplicate-claim risk. Stronger control uses pre-numbered vouchers, attached receipts, “PAID” stamps, approval signatures and independent review.</p></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

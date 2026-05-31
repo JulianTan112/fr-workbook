@@ -75,7 +75,26 @@
 </div>
 <div class="check-panel"><strong>Self-check before moving on:</strong> make sure every debit has a matching credit, statement effects are separated from cash effects, and timing items are not accidentally journalised.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Sandoz mock test answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>The reconciliation is a control schedule, not just a list of differences. It must end with the same adjusted cash balance from both the bank side and book side.</p><p>Only book-side items are journalised because those are missing or wrong in the business records. Bank-side timing items explain why the bank statement has not yet caught up with the cash book.</p><p>Due-diligence check: every item must be classified before journalising; a correctly reconciled cash balance must agree on both sides.</p></div>
+<div class="practice-rationale"><h4>Explanation for Sandoz reconciliation, journals and petty cash control</h4>
+<p><span class="bridge-heading">Part (a) bank reconciliation bridge</span></p>
+<pre class="explain-calc">Bank side:
+$10,109 + $4,339 − $1,012 − $5,300 = $8,136
+
+Cash book side:
+$9,641 + $850 − $2,220 − $35 − $100 = $8,136</pre>
+<p>The two sides reconcile to the same adjusted cash balance. Cheque 440 and the $5,529 deposit are not adjusted again because they already appear correctly in the records being reconciled.</p>
+<p><span class="bridge-heading">Part (b) journal-entry bridge</span></p>
+<pre class="explain-calc">EFT receipt:             Dr Cash 850 / Cr A/R 850
+Dishonoured cheque:      Dr A/R 2,220 / Cr Cash 2,220
+Bank charges:            Dr Bank charges 35 / Cr Cash 35
+Ole receipt error:       Dr A/R 100 / Cr Cash 100
+
+Cash ledger check:
++$850 − $2,220 − $35 − $100 = −$1,505
+$9,641 − $1,505 = $8,136</pre>
+<p>Journalise only the book-side items because these are missing from or wrong in the business records. Bank-side timing items explain the bank statement difference but do not need business journal entries.</p>
+<p><span class="bridge-heading">Part (c) internal-control bridge</span></p>
+<p>Explain each control point as <strong>weakness → risk → control</strong>. Returning original receipts and keeping only a petty-cash-book entry creates weak evidence and duplicate-claim risk. Stronger control uses pre-numbered vouchers, attached receipts, “PAID” stamps, approval signatures and independent review.</p></div>
 </section>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 <section class="workspace-card mock-part searchable" data-search="(b) Adjusting general journal entries (b) Adjusting general journal entries">
@@ -111,7 +130,12 @@
 <tr><td>Unpresented cheque No. 455 $5,300</td><td>Already credited to Cash at Bank by the business. The timing difference is corrected on the bank side only.</td></tr>
 </tbody></table>
 </div>
-<div class="check-panel"><strong>Self-check before moving on:</strong> make sure every debit has a matching credit, statement effects are separated from cash effects, and timing items are not accidentally journalised.</div>
+<div class="practice-rationale"><h4>Explanation for part (b): why these four journal entries are made</h4>
+<p><strong>EFT receipt — $850:</strong> the bank statement shows money received from Core Life, but the cash book has not recorded it. So Cash at Bank increases and Core Life's receivable is cleared: <strong>Dr Cash at Bank $850; Cr Accounts Receivable — Core Life $850</strong>.</p>
+<p><strong>Dishonoured cheque — $2,220:</strong> Kool Work's cheque was previously treated as collected, but the bank rejected it. The business must reverse the cash receipt and reinstate the customer debt: <strong>Dr Accounts Receivable — Kool Work $2,220; Cr Cash at Bank $2,220</strong>.</p>
+<p><strong>Bank charges — $35:</strong> the bank has already deducted the charge, but the business has not recorded the expense. So record the expense and reduce cash: <strong>Dr Bank Charges Expense $35; Cr Cash at Bank $35</strong>.</p>
+<p><strong>Ole receipt error — $100:</strong> the cash book recorded Ole's receipt as <strong>$5,566</strong>, but the bank shows only <strong>$5,466</strong>. Cash is overstated by <strong>$100</strong>, and Ole still owes that amount. So <strong>Dr Accounts Receivable — Ole $100; Cr Cash at Bank $100</strong>.</p>
+<p><strong>Part (b) cash ledger check:</strong> net cash adjustment is <strong>+$850 − $2,220 − $35 − $100 = −$1,505</strong>. Cash at Bank therefore moves from <strong>$9,641</strong> to <strong>$8,136</strong>.</p></div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 <section class="workspace-card mock-part searchable" data-search="(c) Internal control weaknesses — petty cash (c) Internal control weaknesses — petty cash">
@@ -135,11 +159,16 @@
 </tbody>
 </table></div>
 </div>
-<div class="check-panel"><strong>Self-check before moving on:</strong> make sure every debit has a matching credit, statement effects are separated from cash effects, and timing items are not accidentally journalised.</div>
+<div class="practice-rationale"><h4>Explanation for part (c): how to answer the petty cash control requirement</h4>
+<p>This part is not asking for journal entries. It asks for <strong>weaknesses and improvements</strong>. A strong answer must separate three things: <strong>weakness identified → risk created → recommended control</strong>.</p>
+<p><strong>Weakness 1:</strong> returning the original receipt to the employee is unsafe because the same receipt can be reused for another claim. The control is to attach the original receipt to a pre-numbered petty cash voucher and stamp it <strong>PAID</strong>.</p>
+<p><strong>Weakness 2:</strong> keeping only the petty cash book entry is weak evidence because it does not prove the claim was genuine, authorised, and business-related. The control is to keep a voucher file with receipt, claimant signature, approval signature, date and expense code.</p>
+<p><strong>Extra acceptable points:</strong> lack of independent approval creates risk of personal or fictitious claims; poor segregation of custody, recording and checking creates risk that errors or misuse can be hidden.</p>
+<p><strong>Part (c) self-check:</strong> do not write only “improve internal control”. Each markable point should name the weakness, explain the risk, and give a matching control.</p></div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

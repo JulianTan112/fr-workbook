@@ -38,11 +38,30 @@
 <div class="solution-block"><div class="solution-caption">Direct write-off method</div><h4>Journals by timeline</h4><div class="table-wrap no-truncate"><table class="journal-table"><thead><tr><th>Date</th><th>Step</th><th>Account / Particulars</th><th>Debit ($)</th><th>Credit ($)</th><th>Profit impact</th></tr></thead><tbody><tr><td>31 Dec 2024</td><td>Wait</td><td>No journal entry</td><td></td><td></td><td>No impact in 2024.</td></tr><tr><td>31 Dec 2025</td><td>Write-off</td><td>Impairment Loss on Receivables</td><td>1,000</td><td></td><td class="impact-negative">Profit decreases in 2025.</td></tr><tr><td></td><td></td><td>   Accounts Receivable</td><td></td><td>1,000</td><td></td></tr><tr><td>26 May 2026</td><td>Recovery 1</td><td>Accounts Receivable</td><td>1,000</td><td></td><td class="impact-positive">Profit increases if credited to writeback.</td></tr><tr><td></td><td></td><td>   Writeback of Impairment of A/R</td><td></td><td>1,000</td><td></td></tr><tr><td>26 May 2026</td><td>Recovery 2</td><td>Cash</td><td>1,000</td><td></td><td>Cash collected.</td></tr><tr><td></td><td></td><td>   Accounts Receivable</td><td></td><td>1,000</td><td></td></tr></tbody></table></div></div>
 <div class="solution-block"><div class="solution-caption">Profit impact comparison</div><h4>Method effect on profit timing</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Year</th><th class="num">Allowance method profit impact</th><th class="num">Direct write-off method profit impact</th><th>Learning point</th></tr></thead><tbody><tr><td>2024</td><td class="num impact-negative">(1,000)</td><td class="num">0</td><td>Allowance method anticipates expected loss and matches it earlier.</td></tr><tr><td>2025</td><td class="num">0</td><td class="num impact-negative">(1,000)</td><td>Direct write-off waits until specific default is confirmed.</td></tr><tr><td>2026</td><td class="num">0</td><td class="num impact-positive">+1,000</td><td>Recovery under direct write-off reverses prior impairment through income/writeback.</td></tr></tbody></table></div></div><div class="check-panel"><strong>Self-check:</strong> Allowance method protects the matching principle: expected loss is recognised in the year revenue was likely generated. Direct write-off creates profit timing swings.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for allowance vs direct write-off timeline</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>The allowance method estimates expected impairment before a specific customer is confirmed bad. This avoids overstating receivables and recognises the impairment in the period related to the credit sales.</p><p>The direct write-off method waits until the debt is confirmed uncollectible. It is simpler, but it can delay the expense and leave receivables overstated before write-off.</p><p>Due-diligence check: under the allowance method, write-off uses Allowance for Impairment of A/R, not a new impairment expense, if the allowance already exists.</p></div>
+<div class="practice-rationale"><h4>Explanation for allowance vs direct write-off timeline</h4>
+<p><span class="bridge-heading">Allowance method bridge</span></p>
+<pre class="explain-calc">31 Dec 2024 expected loss:
+Dr Impairment Loss                         1,000
+    Cr Allowance for Impairment                   1,000
+
+31 Dec 2025 write-off:
+Dr Allowance for Impairment                1,000
+    Cr Accounts Receivable                         1,000</pre>
+<p>The write-off uses the allowance already created, so no fresh impairment expense is recorded on the write-off date.</p>
+<p><span class="bridge-heading">Recovery bridge</span></p>
+<pre class="explain-calc">Reinstate receivable:
+Dr Accounts Receivable                     1,000
+    Cr Allowance for Impairment                   1,000
+
+Collect cash:
+Dr Cash                                    1,000
+    Cr Accounts Receivable                         1,000</pre>
+<p><span class="bridge-heading">Direct write-off bridge</span></p>
+<p>Under direct write-off, no 2024 expected-loss entry is made. Expense appears only when the debt is confirmed bad, which changes profit timing compared with the allowance method.</p></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

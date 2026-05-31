@@ -420,3 +420,45 @@ a{color:var(--clay-dark);text-decoration:none}a:hover{text-decoration:underline}
 .practice-rationale h4{margin:.1rem 0 .55rem; font-size:1.05rem;}
 .practice-rationale p{margin:.55rem 0; line-height:1.65;}
 .audit-note{display:inline-block; font-weight:800; font-size:.78rem; letter-spacing:.02em; padding:.25rem .5rem; border-radius:999px; background:#263238; color:#fff; margin:.15rem 0 .45rem;}
+
+.division-note code{font-weight:800;background:#fff;border:1px solid #cbd5e1;border-radius:6px;padding:1px 6px;}
+
+
+/* v25 PPE + practice explanation bridge polish */
+.practice-rationale .bridge-heading{
+  display:inline-block;
+  margin:.8rem 0 .25rem;
+  padding:.22rem .55rem;
+  border-radius:999px;
+  background:#fff7e6;
+  border:1px solid rgba(139,90,43,.22);
+  color:#5d3b16;
+  font-weight:800;
+  font-size:.82rem;
+  letter-spacing:.01em;
+}
+.practice-rationale pre.explain-calc{
+  margin:.55rem 0 .85rem;
+  padding:.8rem .9rem;
+  border-radius:14px;
+  background:#fffdf8;
+  border:1px solid rgba(96,73,39,.18);
+  white-space:pre-wrap;
+  font-family:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size:.92rem;
+  line-height:1.55;
+  overflow-x:auto;
+}
+.practice-rationale .statement-effect{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:.65rem;
+  margin:.65rem 0;
+}
+.practice-rationale .statement-effect div{
+  background:#fffdf8;
+  border:1px solid rgba(96,73,39,.14);
+  border-radius:14px;
+  padding:.7rem .8rem;
+}
+.practice-rationale .statement-effect strong{display:block;margin-bottom:.2rem;color:#4e3417;}

@@ -39,11 +39,32 @@
 <div class="solution-block"><div class="solution-caption">Step 2 — Bank reconciliation statement</div><h4>Bali Hut — Bank Reconciliation Statement as at 30 April 2006</h4><div class="table-wrap no-truncate"><table class="recon-table"><thead><tr><th>Bank</th><th class="num">$</th><th class="num">$</th></tr></thead><tbody><tr><td>Cash balance per bank statement</td><td></td><td class="num">53,775.25</td></tr><tr><td>Add: Deposit-in-transit, 30 Apr</td><td class="num">3,100.55</td><td></td></tr><tr><td>Less: Outstanding cheque no. 2325</td><td class="num">(5,200.10)</td><td></td></tr><tr><td>Less: Outstanding cheque no. 2333</td><td class="num">(846.25)</td><td></td></tr><tr><td>Total deductions</td><td class="num">(6,046.35)</td><td></td></tr><tr class="total-row"><td>Adjusted cash balance</td><td></td><td class="num">50,829.45</td></tr></tbody></table></div><div class="table-wrap no-truncate"><table class="recon-table"><thead><tr><th>Books</th><th class="num">$</th><th class="num">$</th></tr></thead><tbody><tr><td>Balance per Cash at Bank ledger</td><td></td><td class="num">49,665.30</td></tr><tr><td>Add: Correction of over-recorded cheque to Sukarno Trading</td><td class="num">450.00</td><td></td></tr><tr><td>Add: EFT receipt from Ginger Garden</td><td class="num">3,600.90</td><td></td></tr><tr><td>Subtotal</td><td></td><td class="num">53,716.20</td></tr><tr><td>Less: Dishonoured cheque — DNT Enterprise</td><td class="num">(2,850.75)</td><td></td></tr><tr><td>Less: Bank service charge</td><td class="num">(36.00)</td><td></td></tr><tr class="total-row"><td>Adjusted cash balance</td><td></td><td class="num">50,829.45</td></tr></tbody></table></div></div>
 <div class="solution-block"><div class="solution-caption">Step 3 — Journalise book-side items only</div><h4>Adjusting general journal entries</h4><div class="table-wrap no-truncate"><table class="journal-table"><thead><tr><th>Date</th><th>Account / Particulars</th><th>Debit ($)</th><th>Credit ($)</th><th>Why</th></tr></thead><tbody><tr><td>30 Apr</td><td>Cash at Bank</td><td>450.00</td><td></td><td>Cheque was over-recorded by business by $450.</td></tr><tr><td></td><td>   Accounts Payable — Sukarno Trading</td><td></td><td>450.00</td><td>Restores payable because less cash was actually paid.</td></tr><tr><td>30 Apr</td><td>Cash at Bank</td><td>3,600.90</td><td></td><td>EFT received by bank.</td></tr><tr><td></td><td>   Accounts Receivable — Ginger Garden</td><td></td><td>3,600.90</td><td>Customer balance settled directly through bank.</td></tr><tr><td>30 Apr</td><td>Accounts Receivable — DNT Enterprise</td><td>2,850.75</td><td></td><td>Dishonoured cheque means debtor still owes money.</td></tr><tr><td></td><td>   Cash at Bank</td><td></td><td>2,850.75</td><td>Reverse failed cash receipt.</td></tr><tr><td>30 Apr</td><td>Bank Service Charge Expense</td><td>36.00</td><td></td><td>Bank fee incurred.</td></tr><tr><td></td><td>   Cash at Bank</td><td></td><td>36.00</td><td>Cash deducted by bank.</td></tr></tbody></table></div></div><div class="check-panel"><strong>No-entry items:</strong> Deposit-in-transit and outstanding cheques are Bank-side reconciling items. They were already correctly recorded by the business, so no journal entry is made.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Bali Hut bank reconciliation</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>Start by classifying each item as bank-side timing, book-side omission/error, or bank error. EFT receipts, dishonoured cheques, bank charges and direct deposits are book-side adjustments when first discovered through the bank statement.</p><p>Outstanding cheques and deposits in transit are timing differences on the bank side. They explain why the bank statement has not yet caught up with the cash book; they are not journalised again.</p><p>Due-diligence check: the adjusted bank balance and adjusted book balance must agree after all correct items are placed on the correct side.</p></div>
+<div class="practice-rationale"><h4>Explanation for Bali Hut bank reconciliation</h4>
+<p><span class="bridge-heading">Cash book bridge</span></p>
+<pre class="explain-calc">Cash book before adjustments:
+$16,940.60 + $121,830.20 − $89,105.50 = $49,665.30
+
+Book-side adjustments:
++$450.00 correction of over-recorded cheque
++$3,600.90 EFT receipt
+−$2,850.75 dishonoured cheque
+−$36.00 bank charge
+
+Adjusted book balance = $50,829.45</pre>
+<p><span class="bridge-heading">Bank-side bridge</span></p>
+<pre class="explain-calc">Bank statement balance                 $53,775.25
+Add: deposit-in-transit                  3,100.55
+Less: outstanding cheques               (5,200.10 + 846.25)
+Adjusted bank balance                   $50,829.45</pre>
+<p><span class="bridge-heading">Journal bridge</span></p>
+<pre class="explain-calc">Dr Cash 450 / Cr A/P 450
+Dr Cash 3,600.90 / Cr A/R 3,600.90
+Dr A/R 2,850.75 / Cr Cash 2,850.75
+Dr Bank Charges 36 / Cr Cash 36</pre></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

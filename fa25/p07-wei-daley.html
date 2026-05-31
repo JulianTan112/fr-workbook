@@ -37,11 +37,43 @@
 <div class="solution-block"><div class="solution-caption">Part 1 — Wei Company</div><h4>Write-off and recovery journal entries</h4><div class="table-wrap no-truncate"><table class="journal-table"><thead><tr><th>Date</th><th>Account / Particulars</th><th>Debit ($)</th><th>Credit ($)</th><th>Explanation</th></tr></thead><tbody><tr><td>1 Feb</td><td>Allowance for Impairment of A/R</td><td>6,800</td><td></td><td>Use existing allowance; no new expense.</td></tr><tr><td></td><td>   Accounts Receivable — Oakley Co.</td><td></td><td>900</td><td>Remove Oakley receivable.</td></tr><tr><td></td><td>   Accounts Receivable — Brookes Co.</td><td></td><td>5,900</td><td>Remove Brookes receivable.</td></tr><tr><td>5 Jun</td><td>Accounts Receivable — Oakley Co.</td><td>900</td><td></td><td>Reinstate account previously written off.</td></tr><tr><td></td><td>   Allowance for Impairment of A/R</td><td></td><td>900</td><td>Reverse write-off effect.</td></tr><tr><td>5 Jun</td><td>Cash</td><td>900</td><td></td><td>Cash collected.</td></tr><tr><td></td><td>   Accounts Receivable — Oakley Co.</td><td></td><td>900</td><td>Settle reinstated receivable.</td></tr></tbody></table></div></div><div class="solution-block"><div class="solution-caption">Part 1 — Ledger illustration</div><h4>Allowance for Impairment of A/R</h4><div class="ledger-wrap"><div class="t-account"><h4>Allowance ledger</h4><table class="t-ledger"><thead><tr><th>Debit</th><th>$</th><th>Credit</th><th>$</th></tr></thead><tbody><tr><td>Write-off: Oakley + Brookes</td><td>6,800</td><td>Balance b/d</td><td>30,000</td></tr><tr><td></td><td></td><td>Recovery reinstatement: Oakley</td><td>900</td></tr><tr class="bal"><td></td><td></td><td>Balance after transactions</td><td>24,100</td></tr></tbody></table></div></div></div>
 <div class="solution-block"><div class="solution-caption">Part 2 — Daley aging schedule</div><h4>Required allowance computation</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Age group</th><th class="num">A/R ($)</th><th class="num">Rate</th><th class="num">Required allowance ($)</th></tr></thead><tbody><tr><td>0 days</td><td class="num">396,000</td><td class="num">1%</td><td class="num">3,960</td></tr><tr><td>1–30 days</td><td class="num">90,000</td><td class="num">2%</td><td class="num">1,800</td></tr><tr><td>31–60 days</td><td class="num">36,000</td><td class="num">5%</td><td class="num">1,800</td></tr><tr><td>61–90 days</td><td class="num">18,000</td><td class="num">7%</td><td class="num">1,260</td></tr><tr><td>Over 90 days</td><td class="num">30,000</td><td class="num">10%</td><td class="num">3,000</td></tr><tr class="total-row"><td>Total required allowance</td><td class="num">570,000</td><td></td><td class="num">11,820</td></tr></tbody></table></div></div><div class="solution-block"><div class="solution-caption">Part 2 — Adjustment</div><h4>Allowance balance bridge and journal</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Item</th><th class="num">Amount ($)</th></tr></thead><tbody><tr><td>Unadjusted allowance balance</td><td class="num">13,600 Cr</td></tr><tr><td>Required allowance from aging schedule</td><td class="num">11,820 Cr</td></tr><tr class="total-row"><td>Decrease required</td><td class="num">1,780</td></tr></tbody></table></div><div class="table-wrap no-truncate"><table class="journal-table"><thead><tr><th>Date</th><th>Account / Particulars</th><th>Debit ($)</th><th>Credit ($)</th></tr></thead><tbody><tr><td>31 Dec</td><td>Allowance for Impairment of A/R</td><td>1,780</td><td></td></tr><tr><td></td><td>   Writeback of Impairment of A/R</td><td></td><td>1,780</td></tr></tbody></table></div></div><div class="check-panel"><strong>Self-check:</strong> Aging schedule gives the required ending allowance. Compare it against the existing allowance balance before deciding whether to debit or credit Allowance.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Wei recovery and Daley aging answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>For a recovery under the allowance method, reinstate the receivable first, then record the cash collection. This preserves the ledger trail showing that the account was written off and later recovered.</p><p>For Daley, the aging schedule estimates the required ending allowance by risk category. The journal entry is the difference between that required allowance and the existing unadjusted allowance balance.</p><p>Due-diligence check: calculate required ending allowance first; then use the Allowance T-account to find the adjustment.</p></div>
+<div class="practice-rationale"><h4>Explanation for Wei recovery and Daley aging answer</h4>
+<p><span class="bridge-heading">Wei write-off bridge</span></p>
+<pre class="explain-calc">Write-offs:
+Oakley $900 + Brookes $5,900 = $6,800
+
+Entry:
+Dr Allowance for Impairment              6,800
+    Cr Accounts Receivable                       6,800</pre>
+<p>The write-off uses the allowance and does not create a new impairment expense.</p>
+<p><span class="bridge-heading">Wei recovery bridge</span></p>
+<pre class="explain-calc">Reinstate Oakley:
+Dr Accounts Receivable                     900
+    Cr Allowance for Impairment                     900
+
+Collect cash:
+Dr Cash                                    900
+    Cr Accounts Receivable                           900
+
+Allowance after Wei transactions:
+$30,000 − $6,800 + $900 = $24,100</pre>
+<p><span class="bridge-heading">Daley aging bridge</span></p>
+<pre class="explain-calc">Required allowance:
+$3,960 + $1,800 + $1,800 + $1,260 + $3,000 = $11,820
+
+Existing allowance:
+$13,600 Cr
+
+Writeback needed:
+$13,600 − $11,820 = $1,780
+
+Entry:
+Dr Allowance for Impairment              1,780
+    Cr Impairment Writeback                      1,780</pre></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

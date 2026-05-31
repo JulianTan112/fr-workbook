@@ -39,11 +39,25 @@
 <div class="solution-block"><div class="solution-caption">Transaction-effect schedule</div><h4>Statement-effect table</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>No.</th><th>Transaction</th><th>Total Assets ($)</th><th>Total Liabilities ($)</th><th>Total Equity ($)</th><th>Net Profit ($)</th><th>Ledger explanation</th></tr></thead><tbody><tr class=""><td>1</td><td>Owner invests cash</td><td>+900</td><td></td><td>+900</td><td></td><td>Dr Cash; Cr Capital. Equity increases from owner investment, not profit.</td></tr><tr class=""><td>2</td><td>Cash service revenue</td><td>+700</td><td></td><td>+700</td><td>+700</td><td>Dr Cash; Cr Service Revenue. Revenue increases profit and equity.</td></tr><tr class=""><td>3</td><td>Pay wages</td><td>(500)</td><td></td><td>(500)</td><td>(500)</td><td>Dr Wages Expense; Cr Cash. Expense reduces profit and equity.</td></tr><tr class=""><td>4</td><td>Equipment on credit</td><td>+100</td><td>+100</td><td></td><td></td><td>Dr Equipment; Cr Accounts Payable. No profit effect.</td></tr><tr class=""><td>5</td><td>Supplies on credit</td><td>+200</td><td>+200</td><td></td><td></td><td>Dr Supplies; Cr Accounts Payable. No immediate expense in this question.</td></tr><tr class=""><td>6</td><td>Equipment for cash</td><td>0</td><td></td><td></td><td></td><td>Asset swap: Dr Equipment; Cr Cash. Total assets unchanged.</td></tr><tr class=""><td>7</td><td>Pay credit supplier</td><td>(200)</td><td>(200)</td><td></td><td></td><td>Dr Accounts Payable; Cr Cash. Liability and asset decrease.</td></tr><tr class=""><td>8</td><td>Service on credit</td><td>+400</td><td></td><td>+400</td><td>+400</td><td>Dr Accounts Receivable; Cr Service Revenue. Revenue earned even without cash.</td></tr><tr class=""><td>9</td><td>Owner withdrawal</td><td>(50)</td><td></td><td>(50)</td><td></td><td>Dr Drawings; Cr Cash. Drawings reduce equity, not profit.</td></tr><tr class=""><td>10</td><td>Collect from credit customer</td><td>0</td><td></td><td></td><td></td><td>Dr Cash; Cr Accounts Receivable. Asset swap, no profit effect.</td></tr></tbody></table></div></div><div class="solution-block"><div class="solution-caption">Summary bridge</div><h4>Ending effect summary</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Category</th><th>Amount ($)</th><th>Build-up</th></tr></thead><tbody><tr class=""><td>Net asset increase</td><td>1,550</td><td>+900 +700 -500 +100 +200 +0 -200 +400 -50 +0</td></tr><tr class=""><td>Liability increase</td><td>100</td><td>+100 +200 -200</td></tr><tr class=""><td>Equity increase</td><td>1,450</td><td>Capital +900 + profit +600 − drawings 50</td></tr><tr class=""><td>Net profit</td><td>600</td><td>Revenue 700 + 400 − wages 500</td></tr></tbody></table></div></div>
 <div class="check-panel"><strong>Self-check:</strong> Equation must balance after each row: Assets = Liabilities + Equity. Drawings are equity withdrawals, not expenses.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for accounting-equation transaction analysis</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>The transaction table must preserve Assets = Liabilities + Equity after every transaction. Every event is analysed by account type first, then by increase/decrease direction.</p><p>Drawings are reductions of owner equity, not expenses. Collections from credit customers are asset swaps, not fresh revenue, because the revenue was recognised earlier when the service was performed on account.</p><p>Due-diligence check: after each row, recompute the equation effect. If only one side moved, another account is missing.</p></div>
+<div class="practice-rationale"><h4>Explanation for accounting-equation transaction analysis</h4>
+<p><span class="bridge-heading">Profit and equity bridge</span></p>
+<pre class="explain-calc">Net profit:
+Revenue $700 + $400 − wages $500 = $600
+
+Equity:
+Owner capital $900 + profit $600 − drawings $50 = $1,450
+
+Liabilities:
+$100 + $200 − $200 = $100</pre>
+<p><span class="bridge-heading">Asset bridge</span></p>
+<pre class="explain-calc">Assets = Liabilities + Equity
+Assets = $100 + $1,450 = $1,550</pre>
+<p>Equipment bought for cash and customer collection are asset swaps: one asset increases while another decreases, so total assets do not change. Drawings reduce equity, not profit.</p>
+<p><strong>Self-check:</strong> new revenue is recorded when earned; collecting an existing receivable is not new revenue.</p></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

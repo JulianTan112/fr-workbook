@@ -52,8 +52,8 @@
 <tr><td></td><td class="credit-account">Prepaid Shop Rental Expense</td><td></td><td>102,000</td></tr>
 <tr><td>30 Apr 2024</td><td>Cash at Bank</td><td>60,000</td><td></td><td rowspan="2">Record the issue of redeemable preference shares not yet recorded. Proceeds = 50,000 × $1.20.</td></tr>
 <tr><td></td><td class="credit-account">Redeemable Preference Shares</td><td></td><td>60,000</td></tr>
-<tr><td>30 Apr 2024</td><td>Finance Cost / Preference Dividend Expense</td><td>10,500</td><td></td><td rowspan="2">Annual dividend entitlement declared at year-end = 50,000 × $0.21.</td></tr>
-<tr><td></td><td class="credit-account">Preference Dividend Payable</td><td></td><td>10,500</td></tr>
+<tr><td>30 Apr 2024</td><td>Finance Cost on Redeemable Preference Shares</td><td>3,062.50</td><td></td><td rowspan="2">Redeemable preference shares are treated as a liability/financial obligation. Accrue only the period outstanding: 50,000 × $0.21 × 3.5/12 = $3,062.50.</td></tr>
+<tr><td></td><td class="credit-account">Finance Cost Payable / Redeemable Preference Dividend Payable</td><td></td><td>3,062.50</td></tr>
 <tr><td>30 Apr 2024</td><td>Allowance for Impairment of Accounts Receivable</td><td>2,940</td><td></td><td rowspan="2">Required allowance = 5% × ($70,000 − $2,800) = $3,360. Existing allowance is $6,300 Cr, so reduce it by $2,940.</td></tr>
 <tr><td></td><td class="credit-account">Impairment Loss on Receivables</td><td></td><td>2,940</td></tr>
 <tr><td>30 Apr 2024</td><td>Interest Expense on Bank Loan</td><td>2,250</td><td></td><td rowspan="2">Accrue the unpaid quarter to 30 April: $180,000 × 5% × 3/12 = $2,250.</td></tr>
@@ -62,7 +62,7 @@
 <tr><td></td><td class="credit-account">Income Tax Expense</td><td></td><td>11,700</td></tr>
 <tr><td>30 Apr 2024</td><td>Income Tax Expense</td><td>18,500</td><td></td><td rowspan="2">Record current-year tax liability not yet accrued.</td></tr>
 <tr><td></td><td class="credit-account">Tax Payable</td><td></td><td>18,500</td></tr>
-<tr class="total-row"><td colspan="2">Total</td><td>231,490</td><td>231,490</td><td>Debits and credits must agree.</td></tr>
+<tr class="total-row"><td colspan="2">Total</td><td>224,052.50</td><td>224,052.50</td><td>Debits and credits must agree.</td></tr>
 </tbody>
 </table></div>
 </div>
@@ -156,9 +156,9 @@
 <tr><td></td><td></td><td>Issue proceeds</td><td>60,000</td></tr>
 <tr class="bal"><td></td><td></td><td>Balance c/d</td><td>60,000</td></tr>
 </tbody></table></div>
-<div class="t-account"><h4>Preference Dividend Payable</h4><table class="t-ledger"><thead><tr><th>Debit</th><th>$</th><th>Credit</th><th>$</th></tr></thead><tbody>
-<tr><td></td><td></td><td>Dividend accrued</td><td>10,500</td></tr>
-<tr class="bal"><td></td><td></td><td>Balance c/d</td><td>10,500</td></tr>
+<div class="t-account"><h4>Finance Cost Payable / Redeemable Preference Dividend Payable</h4><table class="t-ledger"><thead><tr><th>Debit</th><th>$</th><th>Credit</th><th>$</th></tr></thead><tbody>
+<tr><td></td><td></td><td>Finance cost accrued</td><td>3,062.50</td></tr>
+<tr class="bal"><td></td><td></td><td>Balance c/d</td><td>3,062.50</td></tr>
 </tbody></table></div>
 <div class="t-account"><h4>Interest Expense on Bank Loan</h4><table class="t-ledger"><thead><tr><th>Debit</th><th>$</th><th>Credit</th><th>$</th></tr></thead><tbody>
 <tr><td>Balance before adjustment</td><td>6,750</td><td></td><td></td></tr>
@@ -179,14 +179,52 @@
 </div>
 <div class="explain-grid"><div class="explain-card"><strong>Explanation for these ledgers:</strong> the redeemable preference share issue is a missing transaction, so Cash and the related liability/equity account are both updated. Interest and tax are period-end accruals. Tax payable is first cleared for the settled prior-year amount, then credited again for the current-year estimate.</div></div>
 </div>
-<div class="check-panel"><strong>Answer-format check:</strong> this page now marks using journal entries, calculation bridges, and ledgers. The final journal total is $231,490 on both sides. The inventory shortage working uses $184,150 less $168,550 = $15,600, not a prose shortcut.</div>
+<div class="check-panel"><strong>Answer-format check:</strong> this page now marks using journal entries, calculation bridges, and ledgers. The final journal total is $224,052.50 on both sides after the redeemable preference-share finance cost is prorated. The inventory shortage working uses $184,150 less $168,550 = $15,600, not a prose shortcut.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for Power Up mock test answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>This mock requires full additional-information reading before journalising. Consignment, NRV, rent, redeemable preference shares, allowance, interest and tax all affect the trial balance in different ways.</p><p>Because the preference shares are redeemable, the return is treated as finance cost over the period outstanding, not a full-year ordinary dividend. Inventory is adjusted in stages: reverse the consignment error, compare adjusted book inventory with physical count, then recognise any NRV write-down.</p><p>Due-diligence check: separate each adjustment, show calculation bridge, post to ledger, and only then prepare statement figures.</p></div>
+<div class="practice-rationale"><h4>Explanation for Power Up integrated adjustment answer</h4>
+<p><span class="bridge-heading">Inventory / consignment bridge</span></p>
+<pre class="explain-calc">Wrong consignment sale reversal:
+Dr Sales                                2,800
+    Cr Accounts Receivable                     2,800
+
+Restore goods wrongly removed from inventory:
+Dr Inventory                            1,650
+    Cr Cost of Goods Sold                       1,650
+
+Inventory per books after restoration:
+$182,500 + $1,650 = $184,150
+
+Physical inventory owned:
+$166,900 + $1,650 consignment goods = $168,550
+
+Inventory shortage:
+$184,150 − $168,550 = $15,600</pre>
+<p>The consigned hiking sticks still belong to Power Up because Walk On had not sold them by year-end. Reverse both the fake sale and the fake cost-of-sales entry before calculating the shortage.</p>
+<p><span class="bridge-heading">NRV, rent, finance cost and tax bridge</span></p>
+<pre class="explain-calc">Outdated T-shirts:
+NRV = $2,300 − $450 = $1,850
+Write-down = $5,400 − $1,850 = $3,550
+
+Shop rental:
+Prepaid balance required = one month = $8,500
+Expense = $110,500 existing prepaid − $8,500 = $102,000
+
+Redeemable preference shares:
+Issue proceeds = 50,000 × $1.20 = $60,000
+Finance cost = 50,000 × $0.21 × 3.5 / 12 = $3,062.50
+
+Bank loan interest:
+$180,000 × 5% × 3 / 12 = $2,250
+
+Tax:
+Clear prior-year tax payable $11,700; accrue current-year tax $18,500.</pre>
+<p>The redeemable preference shares are liability-style financing for this adjustment, so the return is finance cost for the period outstanding, not a full-year ordinary equity dividend.</p>
+<div class="statement-effect"><div><strong>SPL</strong>Adjust sales, COGS/shortage/write-down, rental expense, finance cost, impairment, interest and tax.</div><div><strong>SFP</strong>Correct inventory, receivables, prepaid rent, cash, redeemable preference liability, payables, tax payable and allowance.</div></div></div>
 </section>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 <section class="card"><h2>How to use this mock page</h2><p>Use the answer guide as a marking conversation, not a shortcut. For each item, ask: is this a correction, accrual, deferral, estimate, valuation, tax adjustment, liability recognition, or equity/liability classification issue?</p><div class="section-actions"><a href="#top">↑ Back to top</a></div></section>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

@@ -39,11 +39,29 @@
 <div class="solution-block"><div class="solution-caption">Accounting workings</div><h4>FIFO stock ledger card</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Date</th><th>In: Qty × Cost = $</th><th>Out: Qty × Cost = $</th><th>Balance layers / balance cost</th></tr></thead><tbody><tr class=""><td>1 Jun</td><td></td><td></td><td>25 × 41 = 1,025</td></tr><tr class=""><td>6 Jun sale</td><td></td><td>16 × 41 = 656</td><td>9 × 41 = 369</td></tr><tr class=""><td>13 Jun purchase</td><td>18 × 42 = 756</td><td></td><td>9 × 41 = 369; 18 × 42 = 756; total 1,125</td></tr><tr class=""><td>18 Jun sale</td><td></td><td>9 × 41 = 369; 3 × 42 = 126; total 495</td><td>15 × 42 = 630</td></tr><tr class=""><td>22 Jun sale</td><td></td><td>4 × 42 = 168</td><td>11 × 42 = 462</td></tr><tr class=""><td>30 Jun purchase</td><td>8 × 43 = 344</td><td></td><td>11 × 42 = 462; 8 × 43 = 344; total 806</td></tr><tr class="total-row"><td>Totals</td><td>1,100</td><td>COGS = 1,319</td><td>Ending inventory = 806</td></tr></tbody></table></div></div><div class="solution-block"><div class="solution-caption">Accounting workings</div><h4>Weighted Average Cost stock ledger card</h4><div class="table-wrap no-truncate"><table class="accounting-table"><thead><tr><th>Date</th><th>In</th><th>Out</th><th>Balance / average</th></tr></thead><tbody><tr class=""><td>1 Jun</td><td></td><td></td><td>25 units; $1,025; average $41.00</td></tr><tr class=""><td>6 Jun sale</td><td></td><td>16 × 41.00 = 656.00</td><td>9 units; $369.00</td></tr><tr class=""><td>13 Jun purchase</td><td>18 × 42 = 756</td><td></td><td>27 units; $1,125.00; average $41.6667</td></tr><tr class=""><td>18 Jun sale</td><td></td><td>12 × 41.6667 = 500.00</td><td>15 units; $625.00</td></tr><tr class=""><td>22 Jun sale</td><td></td><td>4 × 41.6667 = 166.67</td><td>11 units; $458.33</td></tr><tr class=""><td>30 Jun purchase</td><td>8 × 43 = 344</td><td></td><td>19 units; $802.33; average $42.2281</td></tr><tr class="total-row"><td>Totals</td><td>1,100</td><td>COGS = 1,322.67</td><td>Ending inventory = 802.33</td></tr></tbody></table></div></div><div class="explain-grid"><div class="explain-card"><strong>FIFO explanation:</strong> sales remove oldest cost layers first; after 22 Jun the remaining layer is 11 units at $42. The 30 Jun purchase creates a new layer at $43.</div><div class="explain-card"><strong>WAC explanation:</strong> average cost is recalculated only after purchases in a perpetual system, then used for subsequent sales until the next purchase.</div></div>
 <div class="check-panel"><strong>Self-check:</strong> Under FIFO, ending inventory is $806. Under WAC, ending inventory is approximately $802.33; small rounding differences are acceptable.</div>
 <div class="section-actions"><a href="#top">↑ Back to top</a></div>
-<div class="practice-rationale"><h4>Explanation for FIFO/WAC stock ledger answer</h4><div class="audit-note">Due-diligence treatment check added against the relevant financial-accounting principle.</div><p>The stock ledger cards are the working. In a perpetual system, each sale is costed on the sale date and the inventory balance is updated after every transaction.</p><p>FIFO keeps cost layers separately and issues the oldest available costs first. Here FIFO COGS is $656 + $495 + $168 = $1,319, leaving ending inventory of 11 × $42 + 8 × $43 = $806.</p><p>Moving weighted average recalculates the average after each purchase and uses that average for later sales until the next purchase. Here the 13 Jun purchase creates an average of $1,125 ÷ 27 = $41.6667; the 18 Jun and 22 Jun sales use that average, leaving $458.33 before the 30 Jun purchase. Ending inventory is $458.33 + $344 = $802.33.</p><p>Because purchase prices rise from $41 to $42 to $43, FIFO leaves more recent higher-cost units in ending inventory. Therefore FIFO ending inventory ($806) is slightly higher than WAC ($802.33), while FIFO COGS ($1,319) is slightly lower than WAC ($1,322.67). If sales revenue is unchanged, FIFO gross profit is slightly higher.</p></div>
+<div class="practice-rationale"><h4>Explanation for FIFO/WAC stock ledger answer</h4>
+<p><span class="bridge-heading">FIFO bridge</span></p>
+<pre class="explain-calc">6 Jun sale: 16 × $41 = $656
+18 Jun sale: 9 × $41 + 3 × $42 = $369 + $126 = $495
+22 Jun sale: 4 × $42 = $168
+FIFO COGS = $656 + $495 + $168 = $1,319</pre>
+<p><span class="bridge-heading">FIFO ending inventory</span></p>
+<pre class="explain-calc">Remaining after sales: 11 units × $42 = $462
+30 Jun purchase:       8 units × $43 = $344
+FIFO ending inventory: $462 + $344 = $806</pre>
+<p><span class="bridge-heading">WAC bridge</span></p>
+<pre class="explain-calc">After 13 Jun purchase:
+($369 + $756) / 27 units = $41.6667 per unit
+
+18 Jun sale: 12 × $41.6667 = $500.00
+22 Jun sale: 4 × $41.6667 = $166.67
+WAC COGS = $656 + $500.00 + $166.67 = $1,322.67
+WAC ending inventory = $458.33 + $344 = $802.33</pre>
+<p>In this rising-cost example, FIFO leaves newer higher-cost units in inventory, so FIFO ending inventory is higher than WAC and FIFO COGS is lower than WAC.</p></div>
 </section>
 </article>
 </main>
-<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 Table Header Fix · corrected source-reinforced</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
+<a aria-label="Back to top" class="back-top-floating" href="#top">↑ Top</a><footer class="footer"><div>Financial Accounting Workbook · v25 · PPE/practice explanation bridge audit</div><div>Progress and draft answers are saved locally in your browser.</div></footer>
 <script src="assets/app.js"></script>
 </body>
 </html>
