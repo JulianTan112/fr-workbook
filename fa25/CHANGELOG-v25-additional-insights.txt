@@ -1,1 +1,0 @@
-Added Additional Insights page and lesson-level links based on the finalized v25 Table Header Fix baseline. Integrated Financial Management concepts only where they support Financial Accounting interpretation.

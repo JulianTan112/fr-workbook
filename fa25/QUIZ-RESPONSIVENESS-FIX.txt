@@ -1,7 +1,0 @@
-Source-based formula drills rebuilt as responsive quiz cards.
-Formula distractors that were accidentally converted from division to “or” were corrected.
-</button><button>: False
-Sales revenue or Employees: False
-Operating profit or interest payable: False
-No missing html links
-Corrected interest-cover option to “Operating profit / Interest expense”.
