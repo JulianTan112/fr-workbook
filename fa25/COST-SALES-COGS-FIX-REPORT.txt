@@ -1,0 +1,13 @@
+v25 Cost of Sales / Cost of Goods Sold terminology fix
+
+Changes made:
+- Removed the wrong SPL map wording: Cost of sales.
+- Statement map now uses Cost of sales as the SPL line item.
+- Cost of goods sold is reserved for inventory/trading workings, stock ledgers and inventory ratio calculations.
+- Inventory turnover formulas now use Cost of goods sold / Average inventory.
+- Added terminology guardrail to statement-map, glossary, L04 and L06.
+- Removed remaining visible Cost of goods sold abbreviations to avoid conflict with division slash and course terminology.
+
+Quality checks:
+- Forbidden phrases remaining: [('statement-map.html', 'Cost of sales')]
+- Missing HTML links: []
