@@ -1,1 +1,0 @@
-v21: removed sarcastic Rule wording; replaced raw filename references with meaningful links; added sticky headers to long pattern tables; added impairment and contra-account coverage to lessons, pattern bank, glossary/flashcards, quiz and printable notes.
