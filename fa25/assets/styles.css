@@ -532,3 +532,12 @@ a{color:var(--clay-dark);text-decoration:none}a:hover{text-decoration:underline}
 .applied-bridge .note{margin-top:1rem;}
 .applied-bridge table td:first-child{font-weight:650;}
 @media print{.applied-bridge{break-inside:avoid;}}
+
+
+/* v25 Sandoz bank reconciliation: Excel-format model answer */
+.excel-answer-table th:nth-child(2),.excel-answer-table th:nth-child(3),
+.excel-answer-table td:nth-child(2),.excel-answer-table td:nth-child(3){text-align:right;font-family:JetBrains Mono,monospace;white-space:nowrap}
+.excel-answer-table .section-label td{font-weight:900;background:#fffaf2;color:var(--clay-dark)}
+.excel-answer-table .spacer-row td{height:18px;background:#fffaf2;border-top:0}
+.excel-answer-table .final-balance{background:#fff36d!important;color:#000;font-weight:900}
+.recon-items-table td:nth-child(2){font-weight:700;color:var(--clay-dark)}
