@@ -1,0 +1,18 @@
+v25 Practice Link and Case-Source Fix
+
+Patched items:
+1. Practice index now visibly links p05-diy.html, p05-benjamin.html, p05-style.html, p07-claire-chloe.html, p10-denny.html, p10-sunshine-gst.html and p10-pewee-gst.html.
+2. ABC Learning Centre source block restored to original paragraph + a-d fact pattern; required section no longer adds a separate classification task.
+3. Sandoz Singapore source block restored as prior bank reconciliation, Cash at Bank ledger, October bank statement, petty cash paragraph and exact required parts (a), (b), (c).
+4. Emerson source block restored with original opening facts, October transactions and exact required parts (a), (b). Ledger/explanation remains as model-answer support only.
+
+Internal checks below were performed after patching.
+missing_internal_html_links: 0
+practice_links_p05_diy: 1
+practice_links_p05_benjamin: 1
+practice_links_p05_style: 1
+practice_links_p07_claire_chloe: 1
+practice_links_p10_denny: 1
+practice_links_p10_sunshine_gst: 1
+practice_links_p10_pewee_gst: 1
+abc_extra_classify_required: 0

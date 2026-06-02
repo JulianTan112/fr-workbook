@@ -1,0 +1,5 @@
+v25 lesson source-trace audit
+
+Checked all lesson pages l01 to l10 for concrete numerical illustrations that jumped into journals, ledgers or statement calculations without first showing the case facts. Added source-fact boxes to L02, L03, L04, L05, L06, L07, L08 and L10. L01 is conceptual and L09 uses X placeholders or external practice data rather than unexplained concrete lesson figures.
+
+Added source-fact boxes for: transaction-effect table, owner contribution journal, Internet Solutions journal and cash ledger, perpetual purchase/sale entries, FCA goods-in-transit entry, accrual-vs-cash timing example, prepaid rent split, LCNRV illustration, petty cash imprest entries, PPE disposal illustration, and tax payable entries.
