@@ -1,0 +1,19 @@
+Financial Accounting Workbook v25 - Practice Source-Complete Audit
+
+Base patched: financial_accounting_workbook_v25_renaldo_source_complete_fix.zip
+
+Added source-complete practice pages:
+- p05-diy.html: Balance Day Adjustments Practice Q2 from uploaded practice question and answer file.
+- p05-benjamin.html: Balance Day Adjustments Additional Q2 from uploaded additional question and suggested answer file.
+- p05-style.html: Balance Day Adjustments Additional Q3 from uploaded additional question and suggested answer file.
+- p07-claire-chloe.html: Cash and Receivables Practice Q3 from uploaded practice question and answer file.
+- p10-denny.html: Current and Non-Current Liabilities Practice Q2 from uploaded question and answer file.
+- p10-sunshine-gst.html: Current and Non-Current Liabilities Practice Q3 GST source list and control-account totals.
+- p10-pewee-gst.html: Current and Non-Current Liabilities Practice Q4 GST source list and control-account totals.
+
+Patched existing page:
+- p10-nutrition.html: replaced compressed trial balance sentence with full official trial balance and all eight additional-information items.
+
+Global clean-up:
+- Replaced generic case-data audit wording with a more practical instruction to trace figures from case data into calculations, journals, ledgers and statements.
+- Internal HTML link check performed after patching.
