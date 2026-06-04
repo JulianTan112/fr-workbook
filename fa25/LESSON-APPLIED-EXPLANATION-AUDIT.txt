@@ -1,0 +1,28 @@
+Financial Accounting Workbook v25 — Lesson Applied Explanation Audit
+Base: practice link and case-source fix. Added conceptual framework filter and applied bridge sections across L01-L10.
+
+Purpose:
+- Convert pasted source material into clean workbook sections, not long textbook dumps.
+- Add practical explanation bridges: source fact -> principle -> calculation -> journal/ledger -> statement effect.
+- Reinforce financing, investing and operating activities across relevant lessons.
+
+Lesson coverage:
+- l01-regulatory.html: applied explanation present=True
+- l02-equation.html: applied explanation present=True
+- l03-recording.html: applied explanation present=True
+- l04-trading.html: applied explanation present=True
+- l05-adjusting.html: applied explanation present=True
+- l06-inventory.html: applied explanation present=True
+- l07-cash.html: applied explanation present=True
+- l08-ppe.html: applied explanation present=True
+- l09-equity.html: applied explanation present=True
+- l10-liabilities.html: applied explanation present=True
+
+Checks:
+- missing_links: 0
+- cogs_occurrences: 0
+- cost_of_sales_cogs_occurrences: 0
+- lesson_sections_present: True
+
+Missing links:
+None

@@ -1,0 +1,1 @@
+v24: Added horizontal scroll controls and forced wide-table layout for accounting tables so columns do not squeeze/truncate.

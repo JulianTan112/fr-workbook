@@ -1,0 +1,32 @@
+Financial Accounting Workbook v25 — Current Attachment Reinforcement Audit
+
+Base used:
+- financial_accounting_workbook_v25_ppe_attachments_reinforcement.zip
+
+New attachments converted into workbook reinforcement:
+- TUTORIAL 11.pdf and TUTORIAL 11-JED KHOO.pdf: cash-flow classification, indirect-method operating bridges, full statement structures, free cash flow and cash-realisation ratio traps.
+- Cashflow Model Answer.pdf: Mullermex Pte Ltd full indirect-method statement with W1 equipment, W2 notes payable, W3 share capital and W4 dividends workings.
+- Practice questions.pdf and Practice questions (solutions).pdf: Alicia Business Consulting adjustment cycle and Re:Con Pte Ltd bank reconciliation.
+- 7. Cash & Receivables_Add Qns (ANS).docx: confirmed existing Emerson and Wei/Daley allowance pages already align with the uploaded additional-answer logic.
+- IFRS 16 Leases ACCA reference: lease filter, right-of-use asset, lease liability, subsequent depreciation/interest/payment logic, and current/non-current split.
+
+New pages added:
+- p05-alicia-adjusting.html
+- p07-recon-bank.html
+- p11-cashflow-tutorial.html
+- p11-mullermex-cashflow.html
+- p10-lease-basics.html
+
+Pages updated with links:
+- practice.html
+- cash-flow-activities.html
+- l05-adjusting.html
+- l07-cash.html
+- l10-liabilities.html
+- index.html
+- exam.html
+- print.html
+- glossary.html
+
+Packaging standard:
+- ZIP created without explicit directory entries.

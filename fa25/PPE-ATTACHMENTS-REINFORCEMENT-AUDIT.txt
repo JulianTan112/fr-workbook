@@ -1,0 +1,30 @@
+PPE attachments integrated into v25.
+
+Base build: financial_accounting_workbook_v25_unpresented_cheques_explanation_fix.zip
+Integrated attachments:
+- 8. Property, Plant & Eqt_Prac Qns.docx
+- 8. Property, Plant & Eqt (Stud).pdf
+- 8. frs_16_(2025).pdf
+
+New/updated areas:
+- l08-ppe.html coverage note updated.
+- l08-ppe.html added Attachment reinforcement section.
+- practice.html added six PPE attachment-derived practice workspaces.
+- New pages:
+  - p08-techie.html
+  - p08-abc-manufacturing.html
+  - p08-hock-lee.html
+  - p08-forbes.html
+  - p08-dower.html
+  - p08-alpine.html
+
+Accounting-format reinforcement included:
+- Source-data maps.
+- Required task boxes.
+- Manual attempt workspaces.
+- Model answer journal tables.
+- Calculation bridges.
+- Explanation bridges.
+- FRS 16 decision filter.
+
+Packaging checks should show no explicit folder entries and no missing internal HTML links.
