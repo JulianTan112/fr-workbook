@@ -1,1 +1,0 @@
-v25: Fixed truncated table headers by removing legacy sticky offset from short pattern tables; retained sticky headers only for true long scroll tables; added spacing/min-width rules for debit-credit pattern columns.
